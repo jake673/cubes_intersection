@@ -4,7 +4,7 @@ c++ intersection of 2 arbitrary 3D cubes
 The purpose is to test if two arbitrary 3D cubes intersect.<br />
 We only get TRUE or FALSE.<br />
 
-Blender is used to test this code.<br />
+Blender 4.1 is used to test this code.<br />
 The Blender script Save-Cubes-02.py , saves the cubes (name,position,rotation,dimension) in a text file.<br />
 Then the code read the text file to get (position,rotation,dimension) of the cubes and check if they intersect.<br />
 
