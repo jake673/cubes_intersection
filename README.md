@@ -32,5 +32,29 @@ The algorithm is :<br />
 
 I think this method covers all the cases.<br />
 
+Description
 
+![Alt text](images/cubes-3.jpg?raw=true "Position")
+
+![Alt text](images/cubes-2.jpg?raw=true "Position")
+
+Tests
+
+Case 1 : No intersection
+
+![Alt text](images/case1-02.png?raw=true "Test")
+
+![Alt text](images/case1-01.png?raw=true "Test")
+
+Case 2 : One point of one cube inside the other cube
+
+![Alt text](images/case2-01.png?raw=true "Test")
+
+![Alt text](images/case2-02.png?raw=true "Test")
+
+Case 3 : No point inside the other cube, but one segment intersecting the other cube
+
+![Alt text](images/case4-01.png?raw=true "Test")
+
+![Alt text](images/case4-02.png?raw=true "Test")
 
