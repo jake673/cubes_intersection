@@ -1,5 +1,5 @@
 # cubes_intersection
-c++ intersection of 2 arbitrary 3D cubes
+c++ intersection of 2 arbitrary 3D cubes.
 
 The purpose is to test if two arbitrary 3D cubes intersect.<br />
 We only get TRUE or FALSE.<br />
@@ -12,7 +12,7 @@ The cubes have a dimension in X,Y,Z, so it can be a 3D rectangle.
 
 We use GLM for the 3D and matrix operations.
 
-Develop on MACOS 14.5 and with XCode 15.4
+Develop on MACOS 14.5 and with XCode 15.4.
 
 # Algorithm
 
@@ -56,15 +56,20 @@ The download folder on Macos for GLM is : /opt/homebrew/Cellar/glm<br />
 
 # Test Environment
 
-We use Blender 4.1 to set 2 cubes in different test position / intersection, in the 3D view of Blender
+We use Blender 4.1 to set 2 cubes in different test position / intersection, in the 3D view of Blender.
 
-The script window allows to save the position of the cubes in a text file , with the blender script Save-Cubes-02.py
+The script window allows to save the position of the cubes in a text file , with the blender script Save-Cubes-02.py<br />
+Press (Option P) in the script window to execute the script in Blender.<br />
 
 Then we execcute the code which read the text file containing the position, rotation, dimension of the cubes, and check the intersection.
 
 ![Alt text](images/test-02.jpg?raw=true "Test setting")
 
+![Alt text](images/terminal-01.png?raw=true "Test setting")
+
 # Description
+
+These images explains the information we use for each cubes.<br />
 
 ![Alt text](images/cubes-3.jpg?raw=true "Position")
 
