@@ -65,6 +65,8 @@ Then we execcute the code which read the text file containing the position, rota
 
 ![Alt text](images/test-02.jpg?raw=true "Test setting")
 
+Terminal window to run the code.<br />
+
 ![Alt text](images/terminal-01.png?raw=true "Test setting")
 
 # Description
