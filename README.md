@@ -19,7 +19,7 @@ Develop on MACOS 14.5 and with XCode 15.4
 1- we test if the distance between Cube1 and Cube2 is greater than the dimensions:<br />
     if YES then return FALSE : no intersection<br />
     
-2- we move Cube2 with InverseMatrix of Cube1 : 
+2- we move Cube2 with InverseMatrix of Cube1 : <br />
 so that we can compare Cube2 with Cube1 when Cube1 is in position 0,0,0 and rotation 0,0,0<br />
     (this way it is easier and faster to test)<br />
     
@@ -29,7 +29,7 @@ so that we can compare Cube2 with Cube1 when Cube1 is in position 0,0,0 and rota
 4- test if one the segments (edges) of Cube2 go through Cube1<br />
     if YES then return TRUE : intersection<br />
     
-5- we move Cube1 with InverseMatrix of Cube2 : 
+5- we move Cube1 with InverseMatrix of Cube2 : <br />
 so that we can compare Cube1 with Cube2 when Cube2 is in position 0,0,0 and rotation 0,0,0<br />
     (this way it is easier and faster to test)<br />
     
