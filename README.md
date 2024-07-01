@@ -39,6 +39,16 @@ Develop on MACOS 14.5 and with XCode 15.4
 
 I think this method covers all the cases.<br />
 
+# Test Environment
+
+We use Blender 4.1 to set 2 cubes in different test position / intersection, in the 3D view of Blender
+
+The script window allows to save the position of the cubes in a text file , with the blender script Save-Cubes-02.py
+
+Then we execcute the code which read the text file containing the position, rotation, dimension of the cubes, and check the intersection.
+
+
+
 # Description
 
 ![Alt text](images/cubes-3.jpg?raw=true "Position")
