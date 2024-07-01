@@ -19,22 +19,24 @@ Develop on MACOS 14.5 and with XCode 15.4
 1- we test if the distance between Cube1 and Cube2 is greater than the dimensions:<br />
     if YES then return FALSE : no intersection<br />
     
-2- we move Cube2 so that Cube1 is in position 0,0,0 and rotation 0,0,0<br />
+2- we move Cube2 with InverseMatrix of Cube1 : 
+so that we can compare Cube2 with Cube1 when Cube1 is in position 0,0,0 and rotation 0,0,0<br />
     (this way it is easier and faster to test)<br />
     
 3- test if one of the points of Cube2 is inside Cube1<br />
     if YES then return TRUE : intersection<br />
     
-4- test if one the segments of Cube2 go through Cube1<br />
+4- test if one the segments (edges) of Cube2 go through Cube1<br />
     if YES then return TRUE : intersection<br />
     
-5- we move Cube1 so that Cube2 is in position 0,0,0 and rotation 0,0,0<br />
+5- we move Cube1 with InverseMatrix of Cube2 : 
+so that we can compare Cube1 with Cube2 when Cube2 is in position 0,0,0 and rotation 0,0,0<br />
     (this way it is easier and faster to test)<br />
     
 6- test if one of the points of Cube1 is inside Cube2<br />
     if YES then return TRUE : intersection<br />
     
-7- test if one the segments of Cube1 go through Cube2<br />
+7- test if one the segments (edges) of Cube1 go through Cube2<br />
     if YES then return TRUE : intersection<br />    
 
 I think this method covers all the cases.<br />
@@ -75,3 +77,10 @@ Then we execcute the code which read the text file containing the position, rota
 
 ![Alt text](images/case4-02.png?raw=true "Test")
 
+## Case 4 : The 2 cubes are touching each other
+When some corner points are at the same position, we consider there is intersection.<br />
+See tests made in the method Geometry::isPointInsideDimension <br />
+
+![Alt text](images/case5-01.png?raw=true "Test")
+
+![Alt text](images/case4-02.png?raw=true "Test")
