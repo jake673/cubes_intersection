@@ -71,7 +71,7 @@ Terminal window to run the code.<br />
 
 # Description
 
-These images explains the information we use for each cubes.<br />
+These images explain the information we use for each cubes.<br />
 
 ![Alt text](images/cubes-3.jpg?raw=true "Position")
 
