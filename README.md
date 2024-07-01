@@ -47,7 +47,7 @@ The script window allows to save the position of the cubes in a text file , with
 
 Then we execcute the code which read the text file containing the position, rotation, dimension of the cubes, and check the intersection.
 
-
+![Alt text](images/test-02.jpg?raw=true "Test setting")
 
 # Description
 
