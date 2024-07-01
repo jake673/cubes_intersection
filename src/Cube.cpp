@@ -6,7 +6,7 @@
 #include "Geometry.hpp"
 #include "Cube.hpp"
 
-// indexes of the point for each sgement
+// indexes of the points for each segment
 // for each segment we have 2 indexes : point1 : point2
 int Cube::segmentsIndexes[CUBE_NB_SEG_PER_CUBE*2] = {
                 0,1,  1,2,  2,3,  3,0,
