@@ -48,11 +48,10 @@ On Windows , probably , the only difference is GLM, how to download GLM on Windo
 
 There is a Makefile included.<br />
 These sources are pretty simple to compile / link. <br />
-We only use GLM which are just include files, it is not a library to link.<br />
+We only use GLM (1.0.1) which are just include files, it is not a library to link.<br />
 On MacOs we use homebrew to download GLM:<br />
 https://formulae.brew.sh/formula/glm<br />
 The download folder on Macos for GLM is : /opt/homebrew/Cellar/glm<br />
-
 
 
 # Test Environment
