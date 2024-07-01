@@ -41,6 +41,20 @@ so that we can compare Cube1 with Cube2 when Cube2 is in position 0,0,0 and rota
 
 I think this method covers all the cases.<br />
 
+# Compile / Link
+
+These sources have only been compiled and tested on Macos 14.5.<br />
+On Windows , probably , the only difference is GLM, how to download GLM on Windows.<br />
+
+There is a Makefile included.<br />
+These sources are pretty simple to compile / link. <br />
+We only use GLM which are just include files, it is not a library to link.<br />
+On MacOs we use homebrew to download GLM:<br />
+https://formulae.brew.sh/formula/glm<br />
+The download folder on Macos for GLM is : /opt/homebrew/Cellar/glm<br />
+
+
+
 # Test Environment
 
 We use Blender 4.1 to set 2 cubes in different test position / intersection, in the 3D view of Blender
@@ -83,4 +97,4 @@ See tests made in the method Geometry::isPointInsideDimension <br />
 
 ![Alt text](images/case5-01.png?raw=true "Test")
 
-![Alt text](images/case4-02.png?raw=true "Test")
+![Alt text](images/case5-02.png?raw=true "Test")
